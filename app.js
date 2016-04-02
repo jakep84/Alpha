@@ -39,7 +39,6 @@ var chatController = require('./controllers/chatController');
 var choicesController = require('./controllers/choicesController');
 var describeController = require('./controllers/describeController');
 var loadingController = require('./controllers/loadingController');
-var onboardingController = require('./controllers/onboardingController');
 var profileController = require('./controllers/profileController');
 var rateController = require('./controllers/rateController');
 var requestController = require('./controllers/requestController');
@@ -121,7 +120,23 @@ app.use(express.static(path.join(__dirname, 'public'), { maxAge: 31557600000 }))
  * Primary app routes.
  */
 app.get('/', homeController.index);
+---------
 app.get('/onboarding', onboardingController.index);
+app.get('/chat', chatController.index);
+app.get('/choices', Contchoicesroller.index);
+app.get('/contact', contactController.index);
+app.get('/describe', describeController.index);
+app.get('/loading', loadingController.index);
+app.get('/profile', profileController.index);
+app.get('/rate', rateController.index);
+app.get('/request', requestController.index);
+app.get('/setting', settingController.index);
+app.get('/signingUp', signingUpController.index);
+app.get('/thankYou', thankYouController.index);
+app.get('/translate', translateController.index);
+
+
+---------------
 app.get('/login', userController.getLogin);
 app.post('/login', userController.postLogin);
 app.get('/logout', userController.logout);
@@ -132,7 +147,7 @@ app.post('/reset/:token', userController.postReset);
 app.get('/signup', userController.getSignup);
 app.post('/signup', userController.postSignup);
 app.get('/contact', contactController.getContact);
-app.post('/contact', contactController.postContact);
+app.post('/cont act', contactController.postContact);
 app.get('/account', passportConfig.isAuthenticated, userController.getAccount);
 app.post('/account/profile', passportConfig.isAuthenticated, userController.postUpdateProfile);
 app.post('/account/password', passportConfig.isAuthenticated, userController.postUpdatePassword);
