@@ -33,6 +33,7 @@ var homeController = require('./controllers/home');
 var userController = require('./controllers/user');
 var apiController = require('./controllers/api');
 var contactController = require('./controllers/contact');
+-----------------
 var onboardingController = require('./controllers/onboardingController');
 var acceptController = require('./controllers/acceptController');
 var chatController = require('./controllers/chatController');
@@ -43,10 +44,10 @@ var profileController = require('./controllers/profileController');
 var rateController = require('./controllers/rateController');
 var requestController = require('./controllers/requestController');
 var settingController = require('./controllers/settingController');
-var signUpController = require('./controllers/signUpController');
+var signingUpController = require('./controllers/signingUpController');
 var thankYouController = require('./controllers/thankYouController');
 var translateController = require('./controllers/translateController');
-
+-------------------
 /**
  * API keys and Passport configuration.
  */
@@ -120,10 +121,9 @@ app.use(express.static(path.join(__dirname, 'public'), { maxAge: 31557600000 }))
  * Primary app routes.
  */
 app.get('/', homeController.index);
----------
 app.get('/onboarding', onboardingController.index);
 app.get('/chat', chatController.index);
-app.get('/choices', Contchoicesroller.index);
+app.get('/choices', choicesController.index);
 app.get('/contact', contactController.index);
 app.get('/describe', describeController.index);
 app.get('/loading', loadingController.index);
@@ -133,10 +133,7 @@ app.get('/request', requestController.index);
 app.get('/setting', settingController.index);
 app.get('/signingUp', signingUpController.index);
 app.get('/thankYou', thankYouController.index);
-app.get('/translate', translateController.index);
-
-
----------------
+app.get('/translate', translateController.index); 
 app.get('/login', userController.getLogin);
 app.post('/login', userController.postLogin);
 app.get('/logout', userController.logout);
@@ -147,7 +144,7 @@ app.post('/reset/:token', userController.postReset);
 app.get('/signup', userController.getSignup);
 app.post('/signup', userController.postSignup);
 app.get('/contact', contactController.getContact);
-app.post('/cont act', contactController.postContact);
+app.post('/contact', contactController.postContact);
 app.get('/account', passportConfig.isAuthenticated, userController.getAccount);
 app.post('/account/profile', passportConfig.isAuthenticated, userController.postUpdateProfile);
 app.post('/account/password', passportConfig.isAuthenticated, userController.postUpdatePassword);
