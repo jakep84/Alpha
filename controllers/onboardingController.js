@@ -4,6 +4,6 @@
  */
 exports.index = function(req, res) {
   res.render('onboarding', {
-    title: 'OnBoarding'
+    title: 'Onboarding'
   });
 };

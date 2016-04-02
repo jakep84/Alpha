@@ -33,7 +33,20 @@ var homeController = require('./controllers/home');
 var userController = require('./controllers/user');
 var apiController = require('./controllers/api');
 var contactController = require('./controllers/contact');
-var onboardingController = require('./controllers/onboarding');
+var onboardingController = require('./controllers/onboardingController');
+var acceptController = require('./controllers/acceptController');
+var chatController = require('./controllers/chatController');
+var choicesController = require('./controllers/choicesController');
+var describeController = require('./controllers/describeController');
+var loadingController = require('./controllers/loadingController');
+var onboardingController = require('./controllers/onboardingController');
+var profileController = require('./controllers/profileController');
+var rateController = require('./controllers/rateController');
+var requestController = require('./controllers/requestController');
+var settingController = require('./controllers/settingController');
+var signUpController = require('./controllers/signUpController');
+var thankYouController = require('./controllers/thankYouController');
+var translateController = require('./controllers/translateController');
 
 /**
  * API keys and Passport configuration.
