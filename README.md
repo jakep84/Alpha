@@ -1,4 +1,4 @@
-![Project Logo](/public/images/wireframes/splashDouble.png)
+![Project Logo] ("http://i1243.photobucket.com/albums/gg545/jmpriddy/spalshDouble.png" border="0" alt=" photo spalshDouble.png)
 # Alpha
 A newa life app for refugees
 
