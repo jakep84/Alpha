@@ -34,19 +34,19 @@ var userController = require('./controllers/user');
 var apiController = require('./controllers/api');
 var contactController = require('./controllers/contact');
 -----------------
-var onboarding = require('./controllers/onboarding');
-var accept = require('./controllers/accept');
-var chat = require('./controllers/chat');
-var choices = require('./controllers/choices');
-var describe = require('./controllers/describe');
-var loading = require('./controllers/loading');
-var profile = require('./controllers/profile');
-var rate = require('./controllers/rate');
-var request = require('./controllers/request');
-var setting = require('./controllers/setting');
-var signingUp = require('./controllers/signingUp');
-var thankYou = require('./controllers/thankYou');
-var translate = require('./controllers/translate');
+var onboardingController = require('./controllers/onboarding');
+var acceptController = require('./controllers/accept');
+var chatController = require('./controllers/chat');
+var choicesController = require('./controllers/choices');
+var describeController = require('./controllers/describe');
+var loadingController = require('./controllers/loading');
+var profileController = require('./controllers/profile');
+var rateController = require('./controllers/rate');
+var requestController = require('./controllers/request');
+var settingController = require('./controllers/setting');
+var signingUpController = require('./controllers/signingUp');
+var thankYouController = require('./controllers/thankYou');
+var translateController = require('./controllers/translate');
 --------------------
 /**
  * API keys and Passport configuration.
