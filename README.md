@@ -1,4 +1,4 @@
-![Project Logo](http://s1243.photobucket.com/user/jmpriddy/media/spalshDouble.png.html)
+
 # Alpha
 A newa life app for refugees
 
@@ -7,12 +7,10 @@ The project serves as an onboarding aiding tool to tutor refugees into regaining
 ## How-to
 Volunteers will list activities and/or events tailored to the specific areas of interests of the refugees. During these activities the refugee will have an opportunity to put to practice their speaking skills.
 Refugees will choose the activities that suits their particular need. 
-## Backstory
-### Motivation 
+## Motivation 
 Optimize the inter actions between refugees and the respective organizations that provide help to them.
-![Backstory Logo] (https://refhack.slack.com/files/denisu81/F0XHN2AG4/smiles_burma.jpg)
-Refugee Story
 
+## Backstory
 Mei is a refugee from Burma, Mianmar. She is nineteen years old. 
 Due to political unrest in her home country along with her family she had to flee to the U.S.
 Everything and everyone that she knows was left behind. She is now forced to re-start. A reset button was pushed on her life, per se, but her past memories continued to linger. Either way life continued moving forward.
