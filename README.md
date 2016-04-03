@@ -1,7 +1,7 @@
 
 # Alpha
 A new life app for refugees
-<a href='https://marvelapp.com/118j1b7'>Alpha Demo</a>
+<a href="https://marvelapp.com/118j1b7">A new life app for refugees</a>
 ## What is Alpha?
 Alpha is an onboarding and aid tool to tutor refugees into regaining independence after they arrive to the US, specifically in terms of transportation and language skills.
 ## How-to
