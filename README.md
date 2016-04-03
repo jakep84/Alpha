@@ -1,4 +1,4 @@
-![Project Logo](https://refhack.slack.com/files/rjlrachelle/F0XJ76S64/chat.png)
+![Project Logo](/public/images/wireframes/splashDouble.png)
 # Alpha
 A newa life app for refugees
 
