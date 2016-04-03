@@ -2,8 +2,8 @@
 # Alpha
 A newa life app for refugees
 
-## Synopsis 
-The project serves as an onboarding aiding tool to tutor refugees into regaining independence after they arrive to the US, specifically in terms of transportation and language skills.
+## What is Alpha?
+Alpha is an onboarding and aid tool to tutor refugees into regaining independence after they arrive to the US, specifically in terms of transportation and language skills.
 ## How-to
 Volunteers will list activities and/or events tailored to the specific areas of interests of the refugees. During these activities the refugee will have an opportunity to put to practice their speaking skills.
 Refugees will choose the activities that suits their particular need. 
@@ -19,6 +19,7 @@ Amongst other challenges, she needs to understand how to effectively communicate
 The app will allow volunteers to invite Mei and people in a similar condition to do social activities (to kill the isolation). As they work on these activities, they also improve their language skills. The volunteers also provide guidance for the transition from collectivist to an individualistic culture.
 Mei feels safe to request help thru Alpha. As developers, we hope that Mei's future is brighter than her past ; therefore we are proud to be a part of such a positive change.
 Our app can be helpful for any foreign born individuals present in the U.S. at any point in time (international students and scholars, refugees, turists and so on).
+
 ## Contributors
 Developed by: Jake Priddy 
 Designed by: Rachelle Jackson
